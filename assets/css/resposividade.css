@@ -1,0 +1,17 @@
+@media(max-width:576px){ /* quando a tela for menor ou igual a 576px, o menu se torna responsivo */
+    .titulo{ 
+        opacity: 0; /* o título do menu desaparece */
+    }
+
+    nav{
+        display: none; /* o menu desaparece */
+    }
+
+
+    main {
+        flex-direction: column; /* os elementos do main ficam um embaixo do outro */
+        align-items: center; /* os elementos do main ficam centralizados */
+        align-content: center; /* os elementos do main ficam centralizados */
+    }
+} 
+

@@ -1,0 +1,23 @@
+section {
+    /* border: .1rem solid #660000; */ /* Vermelho escuro derivado */
+    display: flex;
+    flex: 1;
+    background-color: #000000; /* Preto absoluto */
+}
+
+.container {
+    /* border: .1rem solid #8a0303; */ /* Vermelho sangue */
+    display: flex;
+    flex: 1;
+    padding: 1rem;
+    flex-wrap: wrap; /* faz a linha quebrar */
+    gap: .8rem;  /* espaço entre os elementos, sem precisar usar margin */
+    justify-content: left;
+    background-color: #1a1a1a; /* Preto acinzentado/derivado */
+}
+
+main {
+   flex: 1;
+   background-color: #050505; /* Preto profundo */
+   color: #8a0303; /* Texto em vermelho sangue */
+}

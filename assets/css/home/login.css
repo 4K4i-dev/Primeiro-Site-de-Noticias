@@ -1,0 +1,122 @@
+/* Reset básico */
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Fundo: Gradiente escuro com toque de vermelho profundo */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #2a0202 0%, #000000 100%);
+}
+
+/* Container: Vidro fumê com borda em destaque carmesim */
+.container {
+    background: rgba(20, 0, 0, 0.85);
+    backdrop-filter: blur(15px);
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    color: #f5f5f5;
+    box-shadow: 0 0 25px rgba(138, 3, 3, 0.4);
+    border: 1px solid rgba(138, 3, 3, 0.3);
+}
+
+/* Título com brilho suave em vermelho */
+.container h1 {
+    text-align: center;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #ff0000;
+    text-shadow: 2px 2px 10px rgba(255, 0, 0, 0.5);
+}
+
+/* Grupo input */
+.input-box {
+    position: relative; 
+    margin-bottom: 20px;
+}
+
+/* Inputs: Fundo preto e texto cinza claro */
+.input-box input {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 1px solid #444;
+    background: #111;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+
+/* Foco no input: muda a borda para vermelho sangue */
+.input-box input:focus {
+    border-color: #8b0000;
+    box-shadow: 0 0 8px rgba(139, 0, 0, 0.6);
+}
+
+/* Ícones alinhados */
+.input-box i {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #8b0000; /* Vermelho escuro */
+}
+
+/* Botão: Vermelho sangue para carmesim vibrante */
+button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #660000, #a00000);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.4s;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+button:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(90deg, #800000, #ff0000);
+    box-shadow: 0 5px 20px rgba(138, 3, 3, 0.6);
+}
+
+/* Lembrar e Esqueci a senha */
+.remember-forgot {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    margin-top: 10px;
+    color: #999;
+}
+
+/* Links */
+a {
+    color: #ff3333;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ff0000;
+    text-decoration: underline;
+}
+
+/* Cadastro */
+.register-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 15px;
+}

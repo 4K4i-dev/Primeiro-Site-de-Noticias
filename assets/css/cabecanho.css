@@ -1,0 +1,75 @@
+header {
+    /* Altura mantida conforme original */
+    height: 4rem;
+    /* Fundo preto profundo para contrastar com o vermelho */
+    background-color: #050000; 
+    /* Texto em cinza muito claro/branco */
+    color: #f5f5f5;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    padding: .7rem;
+    /* Adicionei uma borda inferior sutil para dar profundidade */
+    border-bottom: 2px solid #8b0000;
+    box-shadow: 0 2px 10px rgba(139, 0, 0, 0.3);
+}
+
+.logo {
+    /* Borda em vermelho sangue vibrante */
+    border: .1rem #ff0000 solid; 
+    /* Fundo em vermelho escuro (sangue seco) */
+    background-color: #660000; 
+    width: 1rem;
+    height: 1rem;
+    color: #eee;
+    font-weight: bold;
+    border-radius: 100%;
+    padding: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-right: .7rem;
+    /* Brilho externo no logo */
+    box-shadow: 0 0 8px #8b0000;
+}
+
+.titulo {
+    flex: 1;
+    /* Título com leve sombra vermelha para legibilidade no escuro */
+    text-shadow: 1px 1px 5px rgba(255, 0, 0, 0.2);
+}
+
+.menu-hamburguer {
+    border-radius: 100%;
+    width: 1rem;
+    height: 1rem;
+    padding: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    /* Vermelho sangue escuro */
+    background-color: #4a0000;
+    transition: 0.3s;
+}
+
+.menu-hamburguer i {
+    font-size: 1.2rem;
+    /* Ícone em cinza claro */
+    color: #bbb;
+}
+
+/* Efeito de hover atualizado para vermelho vivo */
+.menu-hamburguer:hover {
+    background-color: #8b0000;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.menu-hamburguer:hover i {
+    color: #fff;
+}
+
+.menu-hamburguer i:hover {
+    color: white;
+}

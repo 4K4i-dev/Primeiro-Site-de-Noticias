@@ -1,0 +1,56 @@
+nav {
+    /* border: .1rem solid #8a0303; */ /* Vermelho sangue substituindo o orangered */
+    width: 15em;
+    background-color: #0a0a0a; /* Preto derivado (quase preto) */
+    padding: .5rem;
+}
+
+a { /* a= anchor */
+    text-decoration: none; /* tira o sublinhado do "link" */
+}
+
+li {
+    margin-bottom: 1rem; /* espaço entre as opções do menu */
+}
+
+.opcao {
+    display: flex;
+    border-radius: .5rem;
+    padding: .6rem;
+    background-color: #1a1a1a; /* Preto derivado */
+    color: #8a0303; /* Texto em vermelho sangue */
+}
+
+.opcao:hover {
+    background-color: #2b0000; /* Vermelho sangue bem escuro (vinho) */
+    color: #ff0000; /* Vermelho mais vivo para destaque */
+    box-shadow: .3rem .3rem .3rem .01rem #000000; /* Sombra preta absoluta */
+    border: .1rem solid #8a0303; /* Borda vermelho sangue */
+}
+
+.opcao:hover .rotulo { /* quando eu passo o mouse sobre a opção("hover") a opção rotulo que se desloca para a direita */
+    text-align: right;
+}
+
+.opcao:hover .icone-final {
+    opacity: 1; /* eu vejo o elemento, ele não é translúcido */
+}
+
+.icone-inicial {
+    width: 1.5rem;
+}
+
+.rotulo {
+    flex: 1;
+}
+
+.icone-final {
+    width: 1rem;
+    text-align: right;
+    opacity: 0;
+    transition: opacity 0.3s ease-in; /* tipo de transição para sumir a setinha */
+}
+
+.menu-oculto {
+    display: none;
+}

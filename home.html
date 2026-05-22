@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Meu Site de Notícias</title>
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <script src="./assets/js/menu-hamburgue.js"></script>
+  <script src="https://kit.fontawesome.com/304c9400f8.js" crossorigin="anonymous"></script>
+  <script src="assets/js/home.js" type="module"></script>
+</head>
+
+<body>
+  <header>
+    <div class="logo">A</div>
+    <h1 class="titulo">MEU SITE DE NOTICIAS</h1>
+    <div class="menu-hamburguer" onclick="alternarVisualizacaoDoMenuLateral();">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>
+  <section>
+    <nav>
+      <ul class="menu-lateral">
+        <li>
+          <a href="#">
+
+            <div class="opcao" id="opcao-noticia">
+              
+              <div class="icone-inicial">
+                <i class="fa-solid fa-newspaper"></i>
+              </div>
+              <div class="rotulo">Notícia</div>
+              <div class="icone-final">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="opcao">
+              <div class="icone-inicial">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div class="rotulo">Mensagem</div>
+              <div class="icone-final">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <div class="opcao">
+              <div class="icone-inicial">
+                <i class="fa-solid fa-user"></i>
+              </div>
+              <div class="rotulo">Perfil</div>
+              <div class="icone-final">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+        <li>
+          <a href="index.html">
+            <div class="opcao">
+              <div class="icone-inicial">
+                <i class="fa-solid fa-arrow-right-from-bracket"></i>
+              </div>
+              <div class="rotulo">Sair</div>
+              <div class="icone-final">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <main id="noticias" class="container"></main>
+
+  </section>
+  <footer>&copy; MEU SITE DE NOTICIAS </footer>
+</body>
+
+</html>
